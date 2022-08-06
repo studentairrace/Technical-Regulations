@@ -27,5 +27,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: rulebook
-          path: technical_regulations.tex
+          path: technical_regulations.pdf
           retention-days: 14
