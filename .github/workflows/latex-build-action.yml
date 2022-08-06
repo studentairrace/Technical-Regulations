@@ -1,0 +1,31 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v1
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@master
+        with:
+          root_file: technical_regulations.tex
+
+#  build:
+#    runs-on: ubuntu-latest
+#    container: texlive/texlive:latest
+#
+#    steps:
+#    - uses: actions/checkout@v2
+#
+#    - name: Build pdf
+#      run: make pdf
+
+      - name: Upload pdf as Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: rulebook
+          path: technical_regulations.tex
+          retention-days: 14
