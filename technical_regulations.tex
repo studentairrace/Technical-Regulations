@@ -18,6 +18,186 @@
 
 \tableofcontents{}
 \newpage
-\input{pages/TechnicalRegulations}
+
+\section{Power Source}
+\begin{enumerate}
+  \item The aircrafts power source must be electric. All motors and acutators on the aircraft must also be electrically driven.
+  \item Combustion engines, Hydrogen Cells (?) or comparable devices are not permitted. 
+\end{enumerate}
+
+\section{Vehicle Class}
+\begin{enumerate}
+  \item The aircrafts themselves as well as their operation, must be certifiable within the EASA A3 class in Germany. This includes some of the following points.
+  \item The aircraft must have a tag.
+  \item The aircraft must not exceed 25kg MTOW. 
+  \item The aircraft must be insured with more than 750.000 SZR. 
+\end{enumerate}
+
+\section{Ground Emergency Switch}
+\begin{enumerate}
+  \item Teams need to at least have a special kill switch programmed to their Transmitter or console from which they control the aircraft from. This kill switch needs to shut down all flight controller motor outputs.
+  \item The aircraft needs to be equipped with a Land function which autonomously lands the aircraft at the current position. A switch needs to be bound on the Transmitter/Ground Station from which the team controls the aircraft from.  
+  \item \emph{Which Devices will be supported by the organizers? Which do the teams need to buy?}
+  \item \emph{Where do the teams have to put the emergency shut down devices?}
+  \item \emph{Do the devices operate relays or shut downn via MAVLINK?}
+\end{enumerate}
+
+\section{Standardized Parts}
+
+\subsection{T-Wing}
+\begin{enumerate}
+  \item The teams will be provided with a standardized camera and sensor housing which goes on top of the UAS.
+  \item \emph{What kind of mounting plate/adapter does this need?}
+  \item \emph{Do we supply the teams only with a mockup and specifications attach the actual camera in the final competition?}
+  \item \emph{What FOV does the camera need? How do we define the exact position?}
+\end{enumerate}
+
+\subsection{Avionics suite}
+\begin{enumerate}
+  \item \emph{How big and heavy does the avionics suite need to be?}
+  \item \emph{Which kinds of instruments/sensors do we put in there?}
+  \item \emph{Should we attach some sort of safety shut off switch into this avionics box?}
+  \item \emph{Will this box be connected to the T-Wing or exist on it's own?}
+  \item \emph{Where do we put this avionics box?}
+\end{enumerate}
+
+\subsection{Timing Equipement}
+\begin{enumerate}
+  \item \emph{How do we time the flight duration? Which systems might work for us?}
+  \item \emph{Where will the teams mount this Equipement?}
+\end{enumerate}
+
+
+
+\section{Mounting Plate Dimension}
+\begin{enumerate}
+  \item The mounting plate for the thrust stand event must be parallel to the vehicles xy-plane. The mounting plates center may not be further than 20cm laterally (in the xy-plane) away from the center of gravity of the vehicle. The holding plates bottom side may not be lower than 10cm below the lowest point of the landing gear. 
+  \item The mounting plate must have four through-holes with a diameter of 6.6mm. They must be arranged in a 2 by 2 pattern with a distance of ${\Delta}x=80mm$ and ${\Delta}y=50mm$. It must also enable the use of M6 washers according to ISO 7089 without them sticking over the edge.
+  \item The nuts which will counter the screws on the mounting plate must be easily reachable with a wrench.  
+  \item The competitors must add a flange in the area not used up by the previous two points to the holding plate to their vehicle. 
+  \item The thickness of the mounting plate must be at least 8mm with a flat bottom. The material must be at least aluminum or a harder alloy.
+  \item The mounting plate and further structural mounts which only facilitate the attachment of this holding plate may be removed by the teams for the flights. These parts will however still be added to the official MTOW of the vehicle during scruteneering.
+  \item The vehicle must be able to transfer all it's thrust through the holding plate fixed and its screws. 
+\end{enumerate}
+
+\section{Vehicle Dimensions}
+\begin{enumerate}
+  \item The rotor disks can be offset to each other however the teams prefer within the XY-plane. 
+  \item The futhest distance between two main-motor-shafts in x direction divided by the furthest distance between two main-motor-shafts in y direction must lie between 0.5 and 2. 
+  \item The rotor disks may be offset to each other in the z direction up until a maximum difference of +-400mm.
+  \item The rotor disks may overlap when viewed in the xy-plane if a necessary seperation between the rotors during full-thrust with a safety factor of at at least 3 is ensured. Prove for this must be provided by the teams in their safety report. 
+  \item Rotors whichs rotor disks overlap or mesh within each other are not permitted. Even if mechanically or electronically coupled.
+  \item The total vehicle size, including propellers, must not exceed a box with the side lengths of $x=3000mm$, $y=3000mm$, $y=1200mm$
+  \item The total vehicle size, including propellers, must exceed a box with the side lengths of $x=1200mm$, $y=1200mm$, $y=300mm$
+\end{enumerate}
+
+\section{Vehicle MTOW}
+\begin{enumerate}
+  \item The Maximum Weight of the vehicle during scruteneering must not exceed 22.5kg.
+  \item The organizer will publish the weights of Equipement which must be used during the competition and thus added to the vehicle beforehand. Those weights wound count towards the maximum weight. 
+  However the teams should plan their calculations for the vehicle with those weights added. The Maximum Takeoff Weight with this Equipement will not pass 25kg.  
+  \item The Weight of the vehicle during scruteneering must at exceed 15kg.  
+\end{enumerate}
+
+\section{Propeller Dimension}
+\begin{enumerate}
+  \item The minimum propeller diameter used on the main-motors must exceed $y=600mm$.
+  \item The maximum propeller diameter used on the main-motors must not exceed $y=1200mm$.
+  \item If varying propeller diameters are used on the main-motors the quotient must be within 0.67-1.5.
+  \item \emph{Maximum Pitch settings etc?}
+\end{enumerate}
+
+\section{Motor Mount Dimensions}
+\begin{enumerate}
+  \item The motor angle in relation to the vehicles body frame must stay fixed at all times during flight. 
+  \item All motors used may be individually tilted by a maximum of XX° parallel to the X-Axis of the vehicles body system.
+  \item All motors used may be individually tilted by a maximum of XX° parallel to the Y-Axis of the vehicles body system.
+  \item The teams may use spacers to quickly adjust these values to achieve different flight dyanmics.
+  \item While the vehicle is standing on the ground, the lowest part of each propeller disk must have a ground clearence of at least 10cm. 
+  \item The distance between the centers of the two motor centers the furthest from each other must exceed a direct distance of 1.20m and may not exceed a direct distance of 2.00m. 
+\end{enumerate}
+
+
+\section{Vehicle Thrust}
+\begin{enumerate}
+  \item The minimum Thrust measured on the vehicle Thrust Test Stand must exceed 800N under standard atmospheric conditions. 
+  \item The Maximum Takeoff Weight of the vehicle must at least exceed 15kg.  
+\end{enumerate}
+
+\section{Power Units}
+\begin{enumerate}
+  \item A power unit is considered to be a lift producing actuator and its control electronics. In the classical multicopter design this means one specific Electronic Speed Controller (ESC) on the UAS, the motor behind it and the propeller attached to this motor would be considered as one single powertrain.
+  \item An UAS must not have more than a maximum of 12 powerunits.
+  \item The vehicle must be able to be able to safely continue a stable flight if any single power unit fails.  
+  \item 
+\end{enumerate}
+
+\section{General Safety}
+\begin{enumerate}
+  \item  
+\end{enumerate}
+
+\section{Vehicle Configurations}
+\begin{enumerate}
+  \item The vehicle must be able to takeoff and land vertically without posing as a safety hazard or showing drift.  
+\end{enumerate}
+
+\section{Electronics}
+\begin{enumerate}
+  \item The maximum DC voltage between two electrical connections on the UAS is 60V.
+  \item The teams are allowed to fit different kinds of batteries on the aircraft if they are legal to operate on UAS and not pose a significantly higher safety hazard than a Lipo Battery. 
+  \item Each battery used in the propulsion system must have a fuse directly in-line with its positive
+  terminal that has a maximum continuous current rating equal to or less than the maximum continuous discharge rating of the battery. i.e. A-hr x maximum continuous (constant) Coulomb rating. (REWRITE THIS RULE AS IT IS DIRECTLY COPIED FROM VFS)
+  \item Aircraft must have a separate power source for the flight control system. A LiPo battery that also follows the specifications under point 3 and throughout the RFP must be used, except that it can differ in capacity from the propulsion system battery/batteries.
+  \item \emph{Should we add an emegency shutdown switch? How do they work? How do they deal with the high current on the vehicles? ?}
+\end{enumerate}
+
+\section{Shunt Plug}
+\begin{enumerate}
+  \item The purpose of the shunt plug is to provide an easy and quick way to manually disarm the
+  aircraft.
+  \begin{itemize}
+    \item A shunt plug must be wired between the leads of the battery system and the electronic speed
+    controller for manual disarming and arming of the aircrafts power system.
+    \item The shunt plug must be red.
+    \item The shunt plug must be removable with only one hand and without any tool.
+    \item The tip of the shunt plug, where someone would grab it, must be located outside the dotted
+    line as shown in Figure 6, below.
+    \item The dotted line, if extended both into and out of the page, creates a box around the aircraft
+    that extends outward from the rotors by 6 inches in all directions. Hint: Placing the shunt plug aft of the vehicle may be the best solution for aerodynamic and stability purposes in forward flight.
+    \item A physical switch mounted on the drone would not be permitted and is not considered a valid shunt plug.
+  \end{itemize}
+
+\end{enumerate}
+
+\section{Internal Cooling}
+\begin{enumerate}
+  \item Fans with a maximum diameter of 50mm are allowed to be fitted anywhere on the vehicle. These do not count as rotors and thus do not need to follow the orientation rule from earlier.
+  \item Water cooling is permitted. 
+\end{enumerate}
+
+\section{External Cooling}
+\begin{enumerate}
+  \item Teams may use leafblowers or comparable devices to externally cool their aircraft after a flight. However they aircraft must but not by live anymore and shut down, shunt plug disconnected.  
+  \item 
+\end{enumerate}
+
+\section{Video Transmission}
+\begin{enumerate}
+  \item The teams must use a digital video connection suitable for flying a aircraft at the competition.  
+  \item The video transmission method must be legal to use in Germany. This includes mainly following the officially allowed frequencies and power outputs and having a valid CE certificate for the video system.
+\end{enumerate}
+
+
+\section{Remote Emergency System}
+\begin{enumerate}
+  \item 
+  \item 
+\end{enumerate}
+
+
+
+
+
 
 \end{document}
