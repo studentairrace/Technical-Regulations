@@ -10,7 +10,7 @@
     \newcommand*{\getLocation}{Munich}
 
 
-
+\usepackage{xcolor}
 \begin{document}
 
 
@@ -19,23 +19,30 @@
 \tableofcontents{}
 \newpage
 
+{\bf Note: Contents marked in \textcolor{red}{red} are still subject to change and are to be seen as current estimations and placeholders.}
+
+
 \section{Power Source}
 \begin{enumerate}
   \item The aircrafts power source must be electric. All motors and acutators on the aircraft must also be electrically driven.
-  \item Combustion engines, Hydrogen Cells (?) or comparable devices are not permitted. 
+  \item Vehicles powerd by combustion engines, \textcolor{red}{Hydrogen Cells or comparable fuel burning devices} are not permitted. 
 \end{enumerate}
 
 \section{Vehicle Class}
 \begin{enumerate}
-  \item The aircrafts themselves as well as their operation, must be certifiable within the EASA A3 class in Germany. This includes some of the following points.
-  \item The aircraft must have a tag.
-  \item The aircraft must not exceed 25kg MTOW. 
-  \item The aircraft must be insured with more than 750.000 SZR. 
+  \item The aircrafts themselves as well as their operation, must be certifiable within the EASA A3 class in Germany. To fall within this class a selfbuild aircraft, must follow rules which are set out by the authorities. 
+  The following points include some of them yet not include all information necessary. Competitors will need to do their own research and make sure to keep up to date with the regulatory requirement on their own:
+  \begin{itemize}
+    \item The aircraft must have a tag.
+    \item The aircraft must not exceed 25kg MTOW. This includes equipement attached by the organizer.
+    \item The aircraft must be insured with a drone insurace specifically applicable in Germany and with a sum of more than 750.000 SZR. 
+  \end{itemize}
 \end{enumerate}
 
 \section{Ground Emergency Switch}
 \begin{enumerate}
-  \item Teams need to at least have a special kill switch programmed to their Transmitter or console from which they control the aircraft from. This kill switch needs to shut down all flight controller motor outputs.
+  \item Teams need to at least have a special kill switch programmed to their Transmitter or console from which they control the aircraft. This kill switch needs to shut down all flight controller motor outputs. 
+  \item An arm/disarm switch is not sufficient as a kill switch.
   \item The aircraft needs to be equipped with a Land function which autonomously lands the aircraft at the current position. A switch needs to be bound on the Transmitter/Ground Station from which the team controls the aircraft from.  
   \item \emph{Which Devices will be supported by the organizers? Which do the teams need to buy?}
   \item \emph{Where do the teams have to put the emergency shut down devices?}
@@ -44,12 +51,23 @@
 
 \section{Standardized Parts}
 
-\subsection{T-Wing}
+\subsection{T-Camera-Pod}
 \begin{enumerate}
   \item The teams will be provided with a standardized camera and sensor housing which goes on top of the UAS.
   \item \emph{What kind of mounting plate/adapter does this need?}
   \item \emph{Do we supply the teams only with a mockup and specifications attach the actual camera in the final competition?}
   \item \emph{What FOV does the camera need? How do we define the exact position?}
+\end{enumerate}
+
+\section{Envelope}
+\begin{enumerate}
+  \item The aircraft must be able to be operated in the following conditions. All these conditions must be met in order to start any flights:
+\begin {itemize}
+  \item The aircraft must be able to operate in temperatures between 5°C and 30°C.
+  \item The relative humidity must stay within 20\% and 90\%. 
+  \item The average windspeed must stay below 6m/s. Gusts may not be exceed 10m/s within one hour before and during the flight.
+  
+\end {itemize}
 \end{enumerate}
 
 \subsection{Avionics suite}
@@ -80,12 +98,21 @@
   \item The vehicle must be able to transfer all it's thrust through the holding plate fixed and its screws. 
 \end{enumerate}
 
-\section{Vehicle Dimensions}
+\subsection{Vehicle Coordinate Frame Definitions}
+\begin{enumerate}
+  \item The XY-Plane is defined as a imaginary plane parallel to the ground when the aircraft is in landed position with the landing gear extended. The position of the plane is defined by the intersection point of the lowest rotor shaft axis with its coressponding rotor disk.
+  \item The z-Axis is defined as an axis perpendicular to the xy-plane. It intersects the XY-plane in the aircrafts center of gravity. As usual in a Body-Fixed Aircraft frame the positive direction is pointin downwards in most cases.
+  \item The Coordinate frames must be clearly marked and made visible in the competitors technical report. 
+\end{enumerate}
+
+\section{Vehicle Geometry}
 \begin{enumerate}
   \item The rotor disks can be offset to each other however the teams prefer within the XY-plane. 
+  \item The lowest point of a rotor disk may not be lower than 150mm above the ground when the aicraft is in landed state with the landing gear extended.
+  \item The lowest point of a rotor disk may not be lower than 70mm above the ground when the aircraft is landed state without the landing gear extended (as might happen in a landing gear extension failure).
   \item The futhest distance between two main-motor-shafts in x direction divided by the furthest distance between two main-motor-shafts in y direction must lie between 0.5 and 2. 
   \item The rotor disks may be offset to each other in the z direction up until a maximum difference of +-400mm.
-  \item The rotor disks may overlap when viewed in the xy-plane if a necessary seperation between the rotors during full-thrust with a safety factor of at at least 3 is ensured. Prove for this must be provided by the teams in their safety report. 
+  \item The rotor disks may overlap when viewed in the xy-plane if a necessary seperation between the rotors during full-thrust with a safety factor of 3 or more at the closest position is ensured. If the distance between both disks exceeds at least 1/4 of the propeller diameter no prove is necessary, prove for must be provided by the teams in their safety report. 
   \item Rotors whichs rotor disks overlap or mesh within each other are not permitted. Even if mechanically or electronically coupled.
   \item The total vehicle size, including propellers, must not exceed a box with the side lengths of $x=3000mm$, $y=3000mm$, $y=1200mm$
   \item The total vehicle size, including propellers, must exceed a box with the side lengths of $x=1200mm$, $y=1200mm$, $y=300mm$
@@ -176,10 +203,10 @@
   \item Water cooling is permitted. 
 \end{enumerate}
 
-\section{External Cooling}
+\section{External Cooling and Heating}
 \begin{enumerate}
   \item Teams may use leafblowers or comparable devices to externally cool their aircraft after a flight. However they aircraft must but not by live anymore and shut down, shunt plug disconnected.  
-  \item 
+  \item Teams may preheat their batteries to an optimum operating temperature with external tools such as heating boxes or heating blankets.
 \end{enumerate}
 
 \section{Video Transmission}

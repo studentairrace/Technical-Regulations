@@ -2,21 +2,23 @@
 \contentsline {section}{\numberline {2}Vehicle Class}{2}{}%
 \contentsline {section}{\numberline {3}Ground Emergency Switch}{2}{}%
 \contentsline {section}{\numberline {4}Standardized Parts}{2}{}%
-\contentsline {subsection}{\numberline {4.1}T-Wing}{2}{}%
-\contentsline {subsection}{\numberline {4.2}Avionics suite}{2}{}%
-\contentsline {subsection}{\numberline {4.3}Timing Equipement}{2}{}%
-\contentsline {section}{\numberline {5}Mounting Plate Dimension}{3}{}%
-\contentsline {section}{\numberline {6}Vehicle Dimensions}{3}{}%
-\contentsline {section}{\numberline {7}Vehicle MTOW}{3}{}%
-\contentsline {section}{\numberline {8}Propeller Dimension}{3}{}%
-\contentsline {section}{\numberline {9}Motor Mount Dimensions}{4}{}%
-\contentsline {section}{\numberline {10}Vehicle Thrust}{4}{}%
-\contentsline {section}{\numberline {11}Power Units}{4}{}%
-\contentsline {section}{\numberline {12}General Safety}{4}{}%
-\contentsline {section}{\numberline {13}Vehicle Configurations}{4}{}%
-\contentsline {section}{\numberline {14}Electronics}{4}{}%
-\contentsline {section}{\numberline {15}Shunt Plug}{5}{}%
-\contentsline {section}{\numberline {16}Internal Cooling}{5}{}%
-\contentsline {section}{\numberline {17}External Cooling}{5}{}%
-\contentsline {section}{\numberline {18}Video Transmission}{5}{}%
-\contentsline {section}{\numberline {19}Remote Emergency System}{5}{}%
+\contentsline {subsection}{\numberline {4.1}T-Camera-Pod}{2}{}%
+\contentsline {section}{\numberline {5}Envelope}{2}{}%
+\contentsline {subsection}{\numberline {5.1}Avionics suite}{3}{}%
+\contentsline {subsection}{\numberline {5.2}Timing Equipement}{3}{}%
+\contentsline {section}{\numberline {6}Mounting Plate Dimension}{3}{}%
+\contentsline {subsection}{\numberline {6.1}Vehicle Coordinate Frame Definitions}{3}{}%
+\contentsline {section}{\numberline {7}Vehicle Geometry}{3}{}%
+\contentsline {section}{\numberline {8}Vehicle MTOW}{4}{}%
+\contentsline {section}{\numberline {9}Propeller Dimension}{4}{}%
+\contentsline {section}{\numberline {10}Motor Mount Dimensions}{4}{}%
+\contentsline {section}{\numberline {11}Vehicle Thrust}{5}{}%
+\contentsline {section}{\numberline {12}Power Units}{5}{}%
+\contentsline {section}{\numberline {13}General Safety}{5}{}%
+\contentsline {section}{\numberline {14}Vehicle Configurations}{5}{}%
+\contentsline {section}{\numberline {15}Electronics}{5}{}%
+\contentsline {section}{\numberline {16}Shunt Plug}{5}{}%
+\contentsline {section}{\numberline {17}Internal Cooling}{6}{}%
+\contentsline {section}{\numberline {18}External Cooling and Heating}{6}{}%
+\contentsline {section}{\numberline {19}Video Transmission}{6}{}%
+\contentsline {section}{\numberline {20}Remote Emergency System}{6}{}%
