@@ -16,6 +16,7 @@
 \contentsline {subsection}{\numberline {5.4}Propeller Dimension}{4}{}%
 \contentsline {section}{\numberline {6}Aircraft Subsystems}{4}{}%
 \contentsline {subsection}{\numberline {6.1}Internal Cooling}{4}{}%
+\contentsline {subsection}{\numberline {6.2}AI onboard computer}{4}{}%
 \contentsline {section}{\numberline {7}Groundstation}{5}{}%
 \contentsline {subsection}{\numberline {7.1}Video Transmission}{5}{}%
 \contentsline {subsection}{\numberline {7.2}External Cooling and Heating}{5}{}%
