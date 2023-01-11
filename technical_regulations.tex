@@ -22,22 +22,26 @@
 {\bf Note: Contents marked in \textcolor{red}{red} are still subject to change and are to be seen as current estimations and placeholders.}
 
 \section{Definitions}
-\subsection{Vehicle Coordinate Frame Definitions}
-\begin{enumerate}
-  \item The XY-Plane is defined as a imaginary plane parallel to the ground when the aircraft is in landed position with the landing gear extended. The position of the plane is defined by the intersection point of the lowest rotor shaft axis with its coressponding rotor disk.
-  \item The z-Axis is defined as an axis perpendicular to the xy-plane. It intersects the XY-plane in the aircrafts center of gravity. As usual in a Body-Fixed Aircraft frame the positive direction is pointin downwards in most cases.
-  \item The Coordinate frames must be clearly marked and made visible in the competitors technical report. 
-\end{enumerate}
 
 \subsection{Propeller Disks}
 \begin{enumerate}
-  \item 
+  \item The propeller disk is a cylinder within the Body-Fixed-Frame that is defined by the full rotation of a single propeller. Each propeller has their own respective propeller disk. 
+  \item The center axis of this cylinder, is reffered to as the propeller shaft. Its interesction with the very center of the disk will be used as a reference point for any measurements taken from the propeller disk. Every measurement which mentions the propeller disk within these regulations refers to this point.
+\end{enumerate}
+
+\subsection{Vehicle Coordinate Frame Definitions}
+\begin{enumerate}
+  \item The Ground Plane is defined as the ground when the aircraft is in landed position with the landing gear extended. Even during flight this plane stays fixed to the Body-Fixed-Frame of the aircraft.
+  \item The XY-Plane is parallel to the ground plane. Its exact position is defined by the intersection with the lowest propeller disk center.
+  \item X-Axis and Y-Axis
+  \item The z-Axis is defined as an axis perpendicular to the xy-plane. It intersects the XY-plane in the aircrafts center of gravity. As usual in a Body-Fixed Aircraft frame the positive direction is pointin downwards in during landed state.
+  \item The Coordinate frames must be clearly marked and made visible in the competitors technical report. 
 \end{enumerate}
 
 \subsection{Power Units}
 \begin{enumerate}
-  \item A power unit is considered to be a lift producing actuator and its control electronics. In the classical multicopter design this means one specific Electronic Speed Controller (ESC) on the UAS, the motor behind it and the propeller attached to this motor would be considered as one single powertrain.
-  \item An UAS must not have more than a maximum of 16 powerunits.
+  \item A power unit is defined as a lift-producing actuator and its associated control electronics. In a classical multicopter design, this would include a single electronic speed controller (ESC) on the aircraft, the motor it controls, and the propeller attached to the motor. Each of these components constitutes a single powertrain. 
+  \item To ensure that only legitimate power units are used in the competition, all devices delcared as power units must strictly be used for producing thrust. Any components that are used for cooling or other purposes will not be considered as power units.
   \item The vehicle must be able to be able to safely continue a stable flight if any single power unit fails.  
 \end{enumerate}
 
@@ -45,11 +49,13 @@
 
 \section{Environmental Envelope}
 \begin{enumerate}
-  \item The aircraft must be able to be operated in the following conditions. All these conditions must be met in order to start any flights:
+  \item Teams will only be permitted to fly their aircraft if they meet the necessary operational conditions and requirements. These conditions must be fully satisfied before any flights may be conducted:
 \begin {itemize}
-  \item The aircraft must be able to operate in temperatures between 5°C and 30°C.
-  \item The relative humidity must stay within 20\% and 90\%. 
-  \item The average windspeed must stay below 6m/s. Gusts may not be exceed 10m/s within one hour before and during the flight.
+  \item The aircraft must be able to operate in temperatures between \textcolor{red}{5°C} and \textcolor{red}{30°C}.
+  \item The relative humidity must stay within \textcolor{red}{60\%} and \textcolor{red}{100\%}. 
+  \item The aircraft must be able to operate within a range of air pressures, with a minimum of \textcolor{red}{950 hPa} and a maximum of \textcolor{red}{1050 hPa}.
+  \item The average windspeed must stay below \textcolor{red}{6m/s}. Gusts may not be exceed \textcolor{red}{15m/s} within one hour before and during the flight.
+  \item The aircraft must be designed and built to withstand flying in drizzle conditions, including maintaining stability and control and protecting sensitive equipment from moisture despite the presence of precipitation.
   
 \end {itemize}
 \end{enumerate}
@@ -66,12 +72,13 @@
 
 \subsection{Vehicle Thrust}
 \begin{enumerate}
-  \item The minimum Thrust measured on the vehicle Thrust Test Stand must exceed 800N under standard atmospheric conditions. 
-  \item The Maximum Takeoff Weight of the vehicle must at least exceed 15kg.  
+  \item The minimum Thrust measured on the vehicle Thrust Test Stand must exceed \textcolor{red}{800N} under standard atmospheric conditions.
+  \item If the atmospheric conditions at the time of testing do not meet the ICAO standard atmosphere conditions, a correction factor based on the current air density will be applied to the thrust stand results in a linear manner.
 \end{enumerate}
 
 
 \section{Electronics}
+
 
 \subsection{Power Source}
 \begin{enumerate}
@@ -81,12 +88,11 @@
 
 \subsection{Onboard Electronics}
 \begin{enumerate}
-  \item The maximum DC voltage between two electrical connections on the UAS is 60V.
+  \item The maximum DC voltage across any two electrical connections on the aircraft must not exceed 60V.
   \item The teams are allowed to fit different kinds of batteries on the aircraft if they are legal to operate on UAS and not pose a significantly higher safety hazard than a Lipo Battery. 
-  \item Each battery used in the propulsion system must have a fuse directly in-line with its positive
-  terminal that has a maximum continuous current rating equal to or less than the maximum continuous discharge rating of the battery. i.e. A-hr x maximum continuous (constant) Coulomb rating. (REWRITE THIS RULE AS IT IS DIRECTLY COPIED FROM VFS)
+  \item A fuse with a suitable current rating must be added in series with each battery in the propulsion system. 
+  This fuse must be installed in-line with the positive terminal of the battery. Its maximum continuous current rating must be equal to or less than the maximum continuous discharge rating of the battery \textcolor{red}{times a safety factor of 1.3}. This helps to protect the battery, the propulsion system, and the aircraft as a whole from damage or failure due to overcurrent conditions.
   \item Aircraft must have a separate power source for the flight control system. A LiPo battery that also follows the specifications under point 3 and throughout the RFP must be used, except that it can differ in capacity from the propulsion system battery/batteries.
-  \item \emph{Should we add an emegency shutdown switch? How do they work? How do they deal with the high current on the vehicles? ?}
 \end{enumerate}
 
 
@@ -100,6 +106,7 @@
 
 \subsection{Powerunit Posititons}
 \begin{enumerate}
+  \item The aircraft used in the event must not have more than 16 power units. Any aircraft found to have more than this maximum will be disqualified from the competition.
   \item The rotor disks can be offset to each other however the teams prefer within the XY-plane. 
   \item The lowest point of a rotor disk may not be lower than 150mm above the ground when the aicraft is in landed state with the landing gear extended.
   \item The lowest point of a rotor disk may not be lower than 70mm above the ground when the aircraft is landed state without the landing gear extended (as might happen in a landing gear extension failure).
@@ -140,6 +147,11 @@
 \begin{enumerate}
   \item Fans with a maximum diameter of 50mm are allowed to be fitted anywhere on the vehicle. These do not count as rotors and thus do not need to follow the orientation rule from earlier.
   \item Water cooling is permitted. 
+\end{enumerate}
+
+\subsection*{AI onboard computer}
+\begin{enumerate}
+  \item
 \end{enumerate}
 
 
@@ -235,12 +247,29 @@
 \begin{enumerate}
   \item The aircrafts themselves as well as their operation, must be certifiable within the EASA A3 class in Germany. To fall within this class a selfbuild aircraft, must follow rules which are set out by the authorities. 
   The following points include some of them yet not include all information necessary. Competitors will need to do their own research and make sure to keep up to date with the regulatory requirement on their own:
-  \begin{itemize}
-    \item The aircraft must have a tag.
-    \item The aircraft must not exceed 25kg MTOW. This includes equipement attached by the organizer.
-    \item The aircraft must be insured with a drone insurace specifically applicable in Germany and with a sum of more than 750.000 SZR. 
-  \end{itemize}
+  \item Analog video signals are only allowed on certain frequency channels between 5725MHz and 5875MHz, and must not exceed an equivalent isotropically radiated power (EIRP) of 25mW.
+  \item All RC transmitters must be equipped with an EU-LBT option and must hold a CE certification. Teams must carry a declaration of conformity to this certification and present it to the organizers at the competition.
+  \item In order to ensure compliance with regulatory standards, all other radio transmitters including radio, telemetry, and video transmitters must hold a CE certification. Teams must be prepared to present the declaration of conformity for these certifications upon request by the organizers.
+  \item The maximum takeoff weight (MTOW) for the aircraft must not exceed 25kg.
+  \item While pilots are required to fly the aircraft within line of sight, they may use a screen or FPV goggles as long as a secondary spotter is present to assist them.
+  \item It is mandatory for all drones to have a commercial drone insurance policy with a minimum coverage of 750,000 SDZ.
+  \item The aircraft must be registered with EASA or in Germany and must have an e-ID.
+  \item The aircraft must also have a fireproof badge displaying the EASA e-ID of the vehicle operator.
+  \item In order to participate, pilots must hold a valid EASA A1/A3 license and be at least 16 years of age.
 \end{enumerate}
+
+\section{Additional Requirements}
+\begin{enumerate}
+  \item It is required that flightbooks and flight documentation are completed and maintained for each flight, to accurately record and track the flight hours and experiences of the pilots and aircraft.
+  \item In order to ensure the safety and regulatory compliance of the competition, standard and emergency checklists, as well as an emergency response plan, must be in place and followed for every flight.
+  \item Prior to takeoff, pilots must gather and review relevant NOTAMs, airspace information, and weather conditions to ensure the planned flight can be safely conducted.
+  \item After being accepted into the competition the teams will be provided with a specialized weather forecasting and analysis tool. This tool was developed specifically for use in professional aviation by one of the competitions partners. 
+  This tool will allow the teams to accurately assess and predict the weather conditions which they will encounter during their testflights and development, helping to ensure the safety and success of their operations. 
+  \item All electronic off-the-shelf components used in the competition, must be CE certified to ensure they meet necessary safety and performance standards.
+  \item The competition teams are expected to foster a "just culture" within their organization, promoting the reporting of incidents and a focus on safety. \textcolor{red}{Student AirRace is also seeking to provide the teams with workshops about this topic.}
+  \item Following each flight, a safety report must be written and submitted by the team, detailing any issues or concerns that arose during the flight.
+\end{enumerate}
+
 
 
 

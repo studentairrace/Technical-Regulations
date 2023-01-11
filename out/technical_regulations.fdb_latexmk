@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1673309113 "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" "out/technical_regulations.pdf" "technical_regulations" 1673309113
-  "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" 1673309112 14448 6e982ff8dceec884bda8c7df73c3e1ca ""
+["pdflatex"] 1673440076 "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" "out/technical_regulations.pdf" "technical_regulations" 1673440076
+  "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" 1673440075 19032 d30a089cd57337f1c291ae848d1231ce ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -127,11 +127,11 @@
   "/usr/local/texlive/2022/texmf.cnf" 1657720404 577 209b46be99c9075fd74d4c0369380e8c ""
   "logos/STAR_logo.jpg" 1661118481 26134 a78bc14b6a21f5684da3b46e09865786 ""
   "logos/tum_logo.png" 1661118481 14273 6257420c2fac7833988cde5f53b5d09e ""
-  "out/technical_regulations.aux" 1673309113 3433 5c73f471802dfeca6716f70d7ae2e5b3 "pdflatex"
-  "out/technical_regulations.toc" 1673309113 2130 2661129e220154bbd205b14e24708bb3 "pdflatex"
+  "out/technical_regulations.aux" 1673440076 3545 6133004d10b11adc0d8d16a86d2cb6a0 "pdflatex"
+  "out/technical_regulations.toc" 1673440076 2201 5069b3d87f1885f6e9d8dc3bea58fdf0 "pdflatex"
   "pages/cover.tex" 1661118481 929 4d5e53ace3734dc253617043342f6caa ""
   "settings.tex" 1661118481 302 e151b2fd1a8734f01acd57aef64cc37a ""
-  "technical_regulations.tex" 1673309112 14448 6e982ff8dceec884bda8c7df73c3e1ca ""
+  "technical_regulations.tex" 1673440075 19032 d30a089cd57337f1c291ae848d1231ce ""
   (generated)
   "out/technical_regulations.aux"
   "out/technical_regulations.log"
