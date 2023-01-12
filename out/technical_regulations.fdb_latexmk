@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1673453762 "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" "out/technical_regulations.pdf" "technical_regulations" 1673453762
-  "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" 1673453762 18983 e681e9b5a143b2486291ab324787d79e ""
+["pdflatex"] 1673486593 "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" "out/technical_regulations.pdf" "technical_regulations" 1673486594
+  "/Users/janismauch/OneDrive/Dokumente/Startups/StudentAirRace/Regulations/Technical-Regulations/technical_regulations.tex" 1673486592 25509 2fd6a736e8d73fe4922b0369b8aea344 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -125,13 +125,16 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1657720413 4595694 b76fcd149e7cf352cfe61a349f6f47d6 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1657720448 2864938 c85919f7110049151f4bd6628973aa81 ""
   "/usr/local/texlive/2022/texmf.cnf" 1657720404 577 209b46be99c9075fd74d4c0369380e8c ""
+  "figures/FullThrustStand3D.jpg" 1673477253 197524 41bea0514c1fff5b789bd8c8d2a9c079 ""
+  "figures/ThrustStandTeamAdapter3D.jpg" 1673477288 103010 391ed49d6a4349ebb6bbada85f4e654b ""
+  "figures/ThrustStandTeamAdapterTechnicalDrawing.jpg" 1673476125 201272 5cd4173871ef2fd6d65402c116fdd0e1 ""
   "logos/STAR_logo.jpg" 1661118481 26134 a78bc14b6a21f5684da3b46e09865786 ""
   "logos/tum_logo.png" 1661118481 14273 6257420c2fac7833988cde5f53b5d09e ""
-  "out/technical_regulations.aux" 1673453762 3657 0fe5306abbc1e4559d07e75af8bb4eaf "pdflatex"
-  "out/technical_regulations.toc" 1673453762 2272 910ddc89aba834ccc7fcc4b951c6eade "pdflatex"
+  "out/technical_regulations.aux" 1673486594 4838 87cb2c7787f8dcb0137ffbbe4a581e9a "pdflatex"
+  "out/technical_regulations.toc" 1673486594 2342 c931fc311565656efe55d6e230edd9eb "pdflatex"
   "pages/cover.tex" 1661118481 929 4d5e53ace3734dc253617043342f6caa ""
   "settings.tex" 1661118481 302 e151b2fd1a8734f01acd57aef64cc37a ""
-  "technical_regulations.tex" 1673453762 18983 e681e9b5a143b2486291ab324787d79e ""
+  "technical_regulations.tex" 1673486592 25509 2fd6a736e8d73fe4922b0369b8aea344 ""
   (generated)
   "out/technical_regulations.aux"
   "out/technical_regulations.log"

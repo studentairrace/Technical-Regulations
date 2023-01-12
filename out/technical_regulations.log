@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  11 JAN 2023 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.13)  12 JAN 2023 02:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -459,20 +459,47 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `technical_regulations.toc'.
 
- [1] [2] [3] [4] [5] [6] [7] (out/technical_regulations.aux) ) 
+ [1] [2] [3] [4]
+<figures/FullThrustStand3D.jpg, id=31, 1300.86pt x 1250.6725pt>
+File: figures/FullThrustStand3D.jpg Graphic file (type jpg)
+<use figures/FullThrustStand3D.jpg>
+Package pdftex.def Info: figures/FullThrustStand3D.jpg  used on input line 200.
+(pdftex.def)             Requested size: 147.95816pt x 142.26378pt.
+ [5]
+<figures/ThrustStandTeamAdapterTechnicalDrawing.jpg, id=35, 1870.99pt x 1455.4375pt>
+File: figures/ThrustStandTeamAdapterTechnicalDrawing.jpg Graphic file (type jpg)
+<use figures/ThrustStandTeamAdapterTechnicalDrawing.jpg>
+Package pdftex.def Info: figures/ThrustStandTeamAdapterTechnicalDrawing.jpg  used on input line 222.
+(pdftex.def)             Requested size: 365.76942pt x 284.52756pt.
+<figures/ThrustStandTeamAdapter3D.jpg, id=36, 1549.79pt x 955.57pt>
+File: figures/ThrustStandTeamAdapter3D.jpg Graphic file (type jpg)
+<use figures/ThrustStandTeamAdapter3D.jpg>
+Package pdftex.def Info: figures/ThrustStandTeamAdapter3D.jpg  used on input line 232.
+(pdftex.def)             Requested size: 230.70853pt x 142.26378pt.
+ [6 <./figures/FullThrustStand3D.jpg>] [7 <./figures/ThrustStandTeamAdapterTechnicalDrawing.jpg> <./figures/ThrustStandTeamAdapter3D.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--279
+
+ []
+
+[8] [9] [10] (out/technical_regulations.aux) ) 
 Here is how much of TeX's memory you used:
- 14805 strings out of 478024
- 293543 string characters out of 5838709
- 577425 words of memory out of 5000000
- 32989 multiletter control sequences out of 15000+600000
+ 14827 strings out of 478024
+ 294425 string characters out of 5838709
+ 578426 words of memory out of 5000000
+ 33007 multiletter control sequences out of 15000+600000
  473763 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,5n,92p,657b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,7n,92p,850b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on out/technical_regulations.pdf (8 pages, 168214 bytes).
+Output written on out/technical_regulations.pdf (11 pages, 676727 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

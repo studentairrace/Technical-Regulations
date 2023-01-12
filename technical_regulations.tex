@@ -67,12 +67,12 @@
   \item The Maximum Weight of the vehicle during scruteneering must not exceed 22.5kg.
   \item The organizer will publish the weights of Equipement which must be used during the competition and thus added to the vehicle beforehand. Those weights wound count towards the maximum weight. 
   However the teams should plan their calculations for the vehicle with those weights added. The Maximum Takeoff Weight with this Equipement will not pass 25kg.  
-  \item The Weight of the vehicle during scruteneering must at exceed \textcolor{red}{15kg}.  
+  \item The Weight of the vehicle during scruteneering must at exceed \textcolor{red}{12kg}.  
 \end{enumerate}
 
 \subsection{Vehicle Thrust}
 \begin{enumerate}
-  \item The minimum Thrust measured on the vehicle Thrust Test Stand must exceed \textcolor{red}{800N} under standard atmospheric conditions.
+  \item The minimum Thrust measured on the vehicle Thrust Test Stand must exceed \textcolor{red}{300N} under standard atmospheric conditions.
   \item If the atmospheric conditions at the time of testing do not meet the ICAO standard atmosphere conditions, a correction factor based on the current air density will be applied to the thrust stand results in a linear manner.
 \end{enumerate}
 
@@ -189,42 +189,69 @@
   \item \emph{Where do we put this avionics box?}
 \end{enumerate}
 
-\subsection{Mounting Plate Dimension}
+\subsection{Mounting Adapter Dimensions}
+In the Thrust Stand Event, competitors are required to provide their own adapter for attaching their drone to the Thrust Test Stand. The interface provided by the event organizer is standardized and shall be refered to as the Lower Mounting Plate. The Lower Mounting Plate is the standardized interface, provided by the Organizer, to which the teams must attach their drone via the Upper Mounting Plate. The Upper Mounting Plate is the part of the interface that teams need to design and develop as a part of their competition drone. Teams must ensure that their drone's upper mounting plate is compatible with the standard Lower Mounting Plate, and that the drone can be securely attached to the test stand. 
+\begin{figure}
+  \centering
+   \IfFileExists{figures/FullThrustStand3D.jpg}{%
+   \includegraphics[height=50mm]{figures/FullThrustStand3D.jpg}
+   }{%
+   \vspace*{50mm}
+   }
+ \caption{\textit{Isometric view of the Thrust Stand Adapter with the standardized Lower Mounting Plate, as provided by the organizer. The competitor's Upper Mounting Plate, which is responsible for attaching their drone to the adapter, is not depicted in the photo. Note that the design and dimensions of the Thrust Stand Plate are subject to change, but the interface for attachment, the Lower Mounting Plate, will remain unchanged.}}
+ \end{figure}
+
 \begin{enumerate}
-  \item The mounting plate for the thrust stand event must be parallel to the vehicles xy-plane. The mounting plates center may not be further than 20cm laterally (in the xy-plane) away from the center of gravity of the vehicle. The holding plates bottom side may not be lower than 10cm below the lowest point of the landing gear. 
-  \item The mounting plate must have four through-holes with a diameter of 6.6mm. They must be arranged in a 2 by 2 pattern with a distance of ${\Delta}x=80mm$ and ${\Delta}y=50mm$. It must also enable the use of M6 washers according to ISO 7089 without them sticking over the edge.
-  \item The nuts which will counter the screws on the mounting plate must be easily reachable with a wrench.  
-  \item The competitors must add a flange in the area not used up by the previous two points to the holding plate to their vehicle. 
-  \item The thickness of the mounting plate must be at least 8mm with a flat bottom. The material must be at least aluminum or a harder alloy.
-  \item The mounting plate and further structural mounts which only facilitate the attachment of this holding plate may be removed by the teams for the flights. These parts will however still be added to the official MTOW of the vehicle during scruteneering.
-  \item The vehicle must be able to transfer all it's thrust through the holding plate fixed and its screws. 
-\end{enumerate}
+  \item The XY-plane of the drone must be parallel to the bottom surface of the Upper Mounting Plate. Additionally, the bottom of the Upper Mounting Plate may not be positioned closer than 250mm to the center of gravity of the drone in the Z-direction.  
+  \item The upper mounting plate must have four through-holes with a diameter of 9mm. They must be arranged in a 2 by 2 pattern. The teams have the opportunity to choose between two different sets of though-holes:
+    \begin{itemize}
+      \item Smaller Set A: Four 9mm holes with a distance of ${\Delta}x=50mm$ and ${\Delta}y=50mm$.
+      \item Bigger Set B: Four 9mm holes with a distance of ${\Delta}x=74mm$ and ${\Delta}y=74mm$.
+    \end{itemize}
+  \item The competitors flange can not exceed the volume above the mounting plate within 200mm above the bottom of the upper mounting plate. 
+  \item The design of the Upper Mounting Plate must include sufficient clearance on the top surface to allow for the placement of M8 Screws and M8 washers, in accordance with ISO 7089 standards, through the holes. The Student AirRace organizers will ensure that these screws can be securely fastened on the opposite side using locknuts.
+  \item The upper mounting plate and further structural mounts which only facilitate the attachment of this holding plate to the test stand may be removed by the teams for the flights. 
+  \item The drone must be designed and built to transfer all of its thrust through the Upper Mounting Plate and its associated screws. Within the safety report the teams must provide calculations demonstrating that their adapter is capable of transferring the expected loads with a minimum safety factor of 5. \end{enumerate}
+
+\begin{figure}
+  \centering
+  \IfFileExists{figures/ThrustStandTeamAdapterTechnicalDrawing.jpg}{%
+  \includegraphics[height=100mm]{figures/ThrustStandTeamAdapterTechnicalDrawing.jpg}
+  }{%
+  \vspace*{100mm}
+  }
+\caption{\textit{Technical Drawing of the Lower Mounting Plate provided by the Organizer. Attention: The Adapter shown here is only the inner part of the full plate which will be at the competition. The sidelengths will ne bigger than 100mm. You cannot exceed the side lengths of 100mm.}}
+\end{figure}
+
+\begin{figure}
+ \centering
+  \IfFileExists{figures/ThrustStandTeamAdapter3D.jpg}{%
+  \includegraphics[height=50mm]{figures/ThrustStandTeamAdapter3D.jpg}
+  }{%
+  \vspace*{50mm}
+  }
+\caption{\textit{Isometric view of the Thruststand-Adapter.}}
+\end{figure}
+
+
 
 \subsection{Timing Equipement}
 \begin{enumerate}
-  \item \emph{How do we time the flight duration? Which systems might work for us?}
-  \item \emph{Where will the teams mount this Equipement?}
+  \item The organizer will be responsible for measuring the race time using external optical systems such as cameras. Teams will not be required to install any timing sensors or equipment within their drone. The organizer will provide and operate the necessary timing equipment.
 \end{enumerate}
 
 \section{Safety Systems}
 
 \subsection{Shunt Plug}
+The Shunt Plug serves as a manual and physical means for disarming the aircraft. It is supposed to completly disconnect the battery power from the motors and be able to be removed by hand in case of an emergency.
 \begin{enumerate}
-  \item The purpose of the shunt plug is to provide an easy and quick way to manually disarm the
-  aircraft.
-  \begin{itemize}
-    \item A shunt plug must be wired between the leads of the battery system and the electronic speed
-    controller for manual disarming and arming of the aircrafts power system.
-    \item The shunt plug must be red.
-    \item The shunt plug must be removable with only one hand and without any tool.
-    \item The tip of the shunt plug, where someone would grab it, must be located outside the dotted
-    line as shown in Figure 6, below.
-    \item The dotted line, if extended both into and out of the page, creates a box around the aircraft
-    that extends outward from the rotors by 6 inches in all directions. Hint: Placing the shunt plug aft of the vehicle may be the best solution for aerodynamic and stability purposes in forward flight.
-    \item A physical switch mounted on the drone would not be permitted and is not considered a valid shunt plug.
-  \end{itemize}
-
-\end{enumerate}
+  \item A Shunt Plug must be wired between the leads of the battery system and the electronic speed controllers (or Power Distribution Device) for manual disarming and arming of the aircraft's power system.
+  \item The Shunt Plug must be removable with one hand and without any tool.
+  \item Installing a physical switch mounted on the drone is not permitted and will not be considered a valid Shunt Plug.
+  \end{enumerate}
+  
+  
+  
 
 \subsection{Ground Emergency Switch}
 \begin{enumerate}
@@ -238,10 +265,32 @@
 
 
 \subsection{Remote Emergency System}
+The organizer reserves the right to implement a remote emergency shutdown system within the avionics blackbox of the aircraft. However, it is unlikely that the development of this device will be completed prior to the first competition. Therefore, it is especially important for teams to equip their aircraft with multiple redundant methods of turning off their aircraft in the event of an emergency or loss of control.
+
+\section{Safety Requirements}
+Given that the competition is already set up in a manner compliant with legal regulations for drone operations, it may be difficult to establish specific and quantitative safety regulations. However, the organizer has still implemented certain guidelines to ensure the safety of all participants. We strongly encourage teams to make every effort to follow these guidelines as closely as possible to ensure the safety of all those involved in the competition. 
+\\ \\ 
+However is important to note that safety processes, such as this one, are often qualitative in nature. The organizer will strive to ensure that the safety guidelines are applied in a consistent and fair manner for all competitors, using EASA SORA process as a guideline as much as possible, as it will positively impact the safety report. The organizer will take the necessary steps to review and evaluate the safety of each drone individually. All teams will be treated in the same way, with the same degree of scrutiny and attention to detail, to ensure a safe and fair competition.
+
 \begin{enumerate}
-  \item 
-  \item 
+  \item The design and construction of the drone must not include any single points of failure that would result in a crash with catastrophic outcome. Teams must demonstrate through design calculations, simulations, and testing that the drone can safely operate even in the event of a failure. Any drone that is deemed to have a single point of failure that would lead to a crash with catastrophic outcome will not be permitted to compete. \\ \\
+  The rule for no single cause for failure shall include specifically the following points:
+    \begin{itemize}
+      \item Lift provided by the motors
+      \item Power systems
+      \item Emergency modes
+      \item Video signal
+      \item Transmitter/Control signal
+      \item Fly Away Protection 
+    \end{itemize}
+  It is also worth noting that this list is not exhaustive and teams should consider other possible failure points for their drone design.
+  \item It is recognized that eliminating all single points of failure that could lead to a crash with catastrophic outcome may not be feasible due to cost constraints. However, teams are expected to have implemented multiple safety systems in their drone design to minimize the risk of harm to individuals on the ground. Additionally, the organizer will have safety measures in place to help mitigate risk during the event.
+  \item Teams are required to use state-of-the-art or advanced technology in the design and construction of their drone.
+  \item Where applicable and possible, teams are encouraged to use standards and norms in the design and construction of their drone. Adhering to standards and norms such as those established by EASA, EUROCAE or ARP documents etc. can have a positive impact on the safety report. Teams should reference any standards and norms used in their design in the safety report.
+  \item Any attempts to circumvent or subvert the safety regulations put in place for the competition will not be tolerated. Such efforts include, but are not limited to, attempting to bypass safety checks, falsifying safety reports, and using non-compliant equipment. Any team found to be in violation of these regulations will be immediately disqualified from the competition without exception, and may face further consequences as deemed appropriate by the organizer.
+  \item The Organizers strongly recommend that teams adhere to the processes established within the EASA SORA (Specific Operations Risk Assessment) process outlined in the EU ordinance 2019/947. Compliance with this process can aid teams in identifying and mitigating safety risks associated with their drone operation, and demonstrate to the Organizers a commitment to safety. Adherence to SORA is not mandatory, but following it will positively impact the safety report.
 \end{enumerate}
+
 
 \section{Regulatory Requirements}
 \begin{enumerate}
@@ -267,7 +316,7 @@
   This tool will allow the teams to accurately assess and predict the weather conditions which they will encounter during their testflights and development, helping to ensure the safety and success of their operations. 
   \item All electronic off-the-shelf components used in the competition, must be CE certified to ensure they meet necessary safety and performance standards.
   \item The competition teams are expected to foster a "just culture" within their organization, promoting the reporting of incidents and a focus on safety. \textcolor{red}{Student AirRace is also seeking to provide the teams with workshops about this topic.}
-  \item Following each flight, a safety report must be written and submitted by the team, detailing any issues or concerns that arose during the flight.
+  \item Following each flight, a report must be written by the team, detailing any issues or concerns that arose during the flight. It can optionally be sumitted to the organizer to give them feedback on their rules and the teams current process.
 \end{enumerate}
 
 

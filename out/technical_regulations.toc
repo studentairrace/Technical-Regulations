@@ -23,11 +23,12 @@
 \contentsline {section}{\numberline {8}Standardized Parts}{5}{}%
 \contentsline {subsection}{\numberline {8.1}T-Camera-Pod}{5}{}%
 \contentsline {subsection}{\numberline {8.2}Avionics suite}{5}{}%
-\contentsline {subsection}{\numberline {8.3}Mounting Plate Dimension}{5}{}%
+\contentsline {subsection}{\numberline {8.3}Mounting Adapter Dimensions}{5}{}%
 \contentsline {subsection}{\numberline {8.4}Timing Equipement}{6}{}%
 \contentsline {section}{\numberline {9}Safety Systems}{6}{}%
 \contentsline {subsection}{\numberline {9.1}Shunt Plug}{6}{}%
 \contentsline {subsection}{\numberline {9.2}Ground Emergency Switch}{6}{}%
-\contentsline {subsection}{\numberline {9.3}Remote Emergency System}{6}{}%
-\contentsline {section}{\numberline {10}Regulatory Requirements}{6}{}%
-\contentsline {section}{\numberline {11}Additional Requirements}{7}{}%
+\contentsline {subsection}{\numberline {9.3}Remote Emergency System}{8}{}%
+\contentsline {section}{\numberline {10}Safety Requirements}{8}{}%
+\contentsline {section}{\numberline {11}Regulatory Requirements}{9}{}%
+\contentsline {section}{\numberline {12}Additional Requirements}{9}{}%
