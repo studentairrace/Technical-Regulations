@@ -150,8 +150,13 @@
 \end{enumerate}
 
 \subsection{AI onboard computer}
+These rules only apply if the competitor decides to participate in the autonomy discipline. 
 \begin{enumerate}
-  \item
+  \item Every computation, that directly influences the trajectory of the aircraft must be executed onboard.
+  \item The companion computer must be equipped with enough storage, so that decisions made by the autonomy stack can be analysed afterwards in case of a failure. 
+  \item The navigation and trajectory planning algorithms must be validated in a Hardware in the loop(HITL) simulation before the race starts, to make sure that the code works and the computer is capable to process the workloads.
+  \item A malfunction in the autonomy stack must result in a position hold state. 
+  \item Every sensor that perceives the environment must be onboard.
 \end{enumerate}
 
 
