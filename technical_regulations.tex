@@ -41,8 +41,6 @@ We have put a lot of hard work and dedication to get to this point and we can't 
 We hope you will not only have fun, but also learn a lot and make valuable connections in the industry. 
 Get ready to push your limits and soar to new heights as we witness the innovative solutions and ideas you will bring to the competition. 
 Welcome to the racing of the future, you are now a part of it.
-\\ \\ 
-Once again, thank you for being a part of this exciting event, and we hope you will have a great time.
 \\ \\ \\
 Janis Mauch 
 \\ \\Founder of Student AirRace
@@ -53,7 +51,7 @@ Janis Mauch
 \begin{itemize}
   \item Contents marked in \textcolor{red}{red} are still subject to change and are to be seen as current estimations and placeholders.
   \item This whole document is considered to still be work in progress. Some points may still be left empty.
-  \item If you have any comments on certain regulations, for example think that they are not required, to strict or don't make sense, please reach out to regulations@student-airrace.com.
+  \item If you have any comments on certain regulations, for example think that they are not required, too strict or don't make sense, please reach out to regulations@student-airrace.com.
 \end{itemize}
 }
 \hspace{10mm}
@@ -160,7 +158,7 @@ Janis Mauch
   \item The Maximum Weight of the vehicle during scruteneering must not exceed 22.5kg.
   \item The organizer will publish the weights of Equipement which must be used during the competition and thus added to the vehicle beforehand. Those weights wound count towards the maximum weight. 
   However the teams should plan their calculations for the vehicle with those weights added. The Maximum Takeoff Weight with this Equipement will not pass 25kg.  
-  \item The Weight of the vehicle during scruteneering must at exceed \textcolor{red}{12kg}.  
+  \item The Weight of the vehicle during scruteneering must exceed \textcolor{red}{12kg}.  
 \end{enumerate}
 
 \subsection{Vehicle Thrust}
@@ -254,8 +252,8 @@ Janis Mauch
 
 \subsection{Propeller Dimension}
 \begin{enumerate}
-  \item The minimum propeller diameter used on the main-motors must exceed \textcolor{red}{$y=500mm$}.
-  \item The maximum propeller diameter used on the main-motors must not exceed \textcolor{red}{$y=1200mm$}.
+  \item The minimum propeller diameter used on the main-motors must exceed \textcolor{red}{$500mm$}.
+  \item The maximum propeller diameter used on the main-motors must not exceed \textcolor{red}{$1200mm$}.
   \item If varying propeller diameters are used on the main-motors the quotient must be within 0.67-1.5.
 \end{enumerate}
 
@@ -281,12 +279,21 @@ These rules only apply if the competitor decides to participate in the autonomy 
   \item Every sensor that perceives the environment must be onboard.
 \end{enumerate}
 
+\section{Liveries}
+\begin{enumerate}
+  \item The teams are responsible for ensuring that the logo of the university which operates the UAV is clearly visible from the front, left, and right side of the aircraft. The logo must be at least fivty (50) mm in its smallest dimension  \item The competitors' number must be clearly readable from any the front. It shall not be smaller than onehundredfifty (150) mm in its smallest dimension.
+  \item The teams are allowed to display sponsor logos and other branding on their UAS, as long as they do not contain any inappropriate or political messages or images. If the teams wish to include such content, they must coordinate with the organizers beforehand to ensure that it is acceptable. 
+  \item The teams are free to design the livery in their own style and team colors, as long as the other rules are adhered to. 
+\end{enumerate}
+
 
 \section{Groundstation}
 \subsection{Video Transmission}
 \begin{enumerate}
-  \item The teams must use a digital video connection suitable for flying a aircraft at the competition.  
+  \item The teams must use a digital video connection suitable for flying a aircraft at the competition. 
+  \item A spotter must always stand next to the pilot, especially when flying in First Person View (FPV). The spotter's role is to assist the pilot by maintaining a visual on the UAV's flight path, monitoring the airspace and providing an additional set of eyes to detect any potential hazards
   \item The video transmission method must be legal to use in Germany. This includes mainly following the officially allowed frequencies and power outputs and having a valid CE certificate for the video system.
+  \item \textcolor{red}{A secondary redundant video link must be in place. This rule might change. Tests will have to show whether two video links can work without affecting each other.}
 \end{enumerate}
 
 \subsection{External Cooling and Heating}
@@ -301,6 +308,7 @@ These rules only apply if the competitor decides to participate in the autonomy 
 \begin{enumerate}
   \item The teams will be provided with a standardized camera and sensor housing which goes on top of the UAS.
   \item \textcolor{red}{The exact dimensions and the interface will still be designed and published. For now four 4.5mm through holes through which M4 screws can be put and countered on the back with nuts can be assumed. They should be on a flat area and oriented on a circle with 60mm.}
+  \item The combined mounting time of the T-Camera-Pod and external black box must not exceed 30 minutes at the competition. 
 \end{enumerate}
 
 
@@ -341,9 +349,9 @@ In the Thrust Stand Event, competitors are required to provide their own adapter
 \begin{figure}
   \centering
   \IfFileExists{figures/ThrustStandTeamAdapterTechnicalDrawing.jpg}{%
-  \includegraphics[height=100mm]{figures/ThrustStandTeamAdapterTechnicalDrawing.jpg}
+  \includegraphics[height=90mm]{figures/ThrustStandTeamAdapterTechnicalDrawing.jpg}
   }{%
-  \vspace*{100mm}
+  \vspace*{90mm}
   }
 \caption{\textit{Technical Drawing of the Lower Mounting Plate provided by the Organizer. Attention: The Adapter shown here is only the inner part of the full plate which will be at the competition. The sidelengths will ne bigger than 100mm. You cannot exceed the side lengths of 100mm.}}
 \end{figure}
@@ -367,12 +375,34 @@ The organizer will be responsible for measuring the race time using external opt
 \section{Safety Systems}
 
 \subsection{Shunt Plug}
-The Shunt Plug serves as a manual and physical means for disarming the aircraft. It is supposed to completly disconnect the battery power from the motors and be able to be removed by hand in case of an emergency.
+The Shunt Plug serves as a manual and physical means for disarming the aircraft. It is supposed to completly disconnect the battery power from the motors and be able to be removed by hand in case of an emergency. We thank the Vertical Flight Society's Design-Build-Vertical Flight Competition (DBVF) for the design and inspiration behind this safety critical part. 
 \begin{enumerate}
   \item A Shunt Plug must be wired between the leads of the battery system and the electronic speed controllers (or Power Distribution Device) for manual disarming and arming of the aircraft's power system.
   \item The Shunt Plug must be removable with one hand and without any tool.
   \item Installing a physical switch mounted on the drone is not permitted and will not be considered a valid Shunt Plug.
   \end{enumerate}
+
+  \begin{figure}[h!]
+    \centering
+     \IfFileExists{figures/ShuntPlugA.png}{%
+     \includegraphics[height=50mm]{figures/ShuntPlugA.png}
+     }{%
+     \vspace*{50mm}
+     }
+   \caption{\textit{Shunt Plug Example (in red box) of the Buckeye Vertical Team of Ohio State University. Photo by courtesy of the Vertical Flight Society's Design-Build-Vertical Flight Competition.}}
+   \end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+   \IfFileExists{figures/ShuntPlugB.png}{%
+   \includegraphics[height=50mm]{figures/ShuntPlugB.png}
+   }{%
+   \vspace*{50mm}
+   }
+ \caption{\textit{Shunt Plug Example (in red box) of the Autonomous Robotics Competition Club of Pennsylvania State University. Photo by courtesy of the Vertical Flight Society's Design-Build-Vertical Flight Competition.}}
+ \end{figure}
+
   
   
   
@@ -409,7 +439,7 @@ Given that the competition is already set up in a manner compliant with legal re
 However is important to note that safety processes, such as this one, are often qualitative in nature. The organizer will strive to ensure that the safety guidelines are applied in a consistent and fair manner for all competitors, using EASA SORA process as a guideline as much as possible, as it will positively impact the safety report. The organizer will take the necessary steps to review and evaluate the safety of each drone individually. All teams will be treated in the same way, with the same degree of scrutiny and attention to detail, to ensure a safe and fair competition.
 
 \begin{enumerate}
-  \item The design and construction of the drone must not include any single points of failure that would result in a crash with catastrophic outcome. Teams must demonstrate through design calculations, simulations, and testing that the drone can safely operate even in the event of a failure. Any drone that is deemed to have a single point of failure that would lead to a crash with catastrophic outcome will not be permitted to compete. \\ \\
+  \item The design and construction of the drone must have no single points of failure that would result in a crash with catastrophic outcome. Teams must demonstrate through design calculations, simulations, and testing that the drone can safely operate even in the event of a failure. Any drone that is deemed to have a single point of failure that would lead to a crash with catastrophic outcome will not be permitted to compete. \\ \\
   The rule for no single cause for failure shall include specifically the following points:
     \begin{itemize}
       \item Lift provided by the motors
