@@ -1,6 +1,6 @@
-# LaTeX template for STAR Rulebook
+# LaTeX template for the Student AirRace Rulebook
 
-This is a Latex template to work on the rulebook for the student airrace competition
+This is a Latex template to work on the rulebook for the Student AirRace competition
 
 This Repository is equipped with a github action, that builds the tex files and stores the resulting pdf as an artefact. (You can find them under "Actions" after selecting the most recent job)
 The Github action is triggered on each push or pull request on the master branch.
