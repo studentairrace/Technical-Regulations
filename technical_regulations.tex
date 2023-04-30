@@ -5,26 +5,27 @@
     \newcommand*{\getOrganisation}{Student Airrace}
     \newcommand*{\getTitle}{Technical Regulations}
     \newcommand*{\getAuthor}{Orga team}
-    \newcommand*{\getDate}{12.01.2023}
-    \newcommand*{\getVersion}{v0.1}
+    \newcommand*{\getDate}{01.05.2023}
+    \newcommand*{\getVersion}{v1.0}
     \newcommand*{\getLocation}{Munich}
   
 
 \begin{document}
 
 
-\input{pages/cover}
 
 \tableofcontents{}
 
 \newpage
 {\bf Authors}
-\\ \\Janis Mauch \emph{\\Founder of Student AirRace - Regulations Team \\janis.mauch@student-airrace.com}
+\\ \\Janis Mausch \emph{\\Founder of Student AirRace - Regulations Team \\janis.mauch@student-airrace.com}
 \\ \\ Simon Pokorny \emph{\\Cofounder of Student AirRace - Technology Team \\simon.pokorny@student-airrace.com}
 \\ \\ \\
 {\bf Changelog}
 \\ \\{\bf Current Version: \\Version Draft \getVersion{}}
-\\ \\Previous Versions: \\ No previous Versions
+\\ \\Previous Versions: 
+\\ v0.1 - Initial Prerelease version
+\\ v1.0 - First Release version: new min thrust, new min MTOW, some minor changes
 
 \newpage
 {\bf Preface}
@@ -80,6 +81,7 @@ Janis Mauch
   \\{\bf RC} \> Remote Control
   \\{\bf RTH} \> Return to Home
   \\{\bf SORA} \> Standard Operating Risk Assessment
+  \\{\bf TWR} \> Thrust to Weight Ratio
   \\{\bf UAS} \> Unmanned Aerial System
   \\{\bf UAV} \> Unmanned Aerial Vehicle
 \end{tabbing}
@@ -154,15 +156,15 @@ Teams can only fly their aircraft if they meet operational conditions and requir
 
 \subsection{Vehicle Maximum Takeoff Weight (MTOW)}
 \begin{enumerate}
-  \item The Maximum Weight of the vehicle during scrutineering must not exceed 22.5kg.
+  \item The Maximum Weight of the vehicle during scrutineering, without the standardized parts by Student AirRace must not exceed 22.5kg.
   \item The Organizer will publish the weights of equipment which must be used during the competition and thus added to the vehicle beforehand. Those weights wound count towards the maximum weight. 
   However, the teams should plan their calculations for the vehicle with those weights added. The Maximum Takeoff Weight with this Equipment will not pass 25kg.  
-  \item The Weight of the vehicle during scruteneering must exceed \textcolor{red}{12kg}.  
+  \item The Weight of the vehicle during scruteneering, without the standardized parts by Student AirRace must exceed .  
 \end{enumerate}
 
 \subsection{Vehicle Thrust}
 \begin{enumerate}
-  \item The minimum Thrust measured on the vehicle Thrust Test Stand must exceed \textcolor{red}{300N} under standard atmospheric conditions.
+  \item The Thrust to Weight Ratio (TWR) of the vehicle, calculated from its weight during scrutineering, must be at least 2:1. The minimum Thrust measured on the vehicle Thrust Test Stand must exceed the required value to achieve this ratio for at least 5 seconds under standard atmospheric conditions.
   \item If the atmospheric conditions during testing do not meet the ICAO standard atmosphere conditions, a correction factor based on the current air density will be applied to the thrust stand results linearly.
 \end{enumerate}
 
