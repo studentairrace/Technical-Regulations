@@ -5,14 +5,19 @@
     \newcommand*{\getOrganisation}{Student Airrace}
     \newcommand*{\getTitle}{Technical Regulations}
     \newcommand*{\getAuthor}{Orga team}
+<<<<<<< HEAD
     \newcommand*{\getDate}{13.12.2023}
     \newcommand*{\getVersion}{v1.1}
+=======
+    \newcommand*{\getDate}{01.05.2023}
+    \newcommand*{\getVersion}{v0.2.0}
+>>>>>>> e0a80c3ff31d27579fecfce2da89d09fb73aca9b
     \newcommand*{\getLocation}{Munich}
   
 
 \begin{document}
 
-
+\input{pages/cover}
 
 \tableofcontents{}
 
@@ -23,6 +28,7 @@
 \\ \\ \\
 {\bf Changelog}
 \\ \\{\bf Current Version: \\Version Draft \getVersion{}}
+<<<<<<< HEAD
 \\ \\Changelog from previous versions: 
 \\ v0.1 - Initial Prerelease version (01.05.23)
 \\ v1.0 - First Release version: new min thrust, new min MTOW, some minor changes (18.05.23)
@@ -33,6 +39,11 @@
   \item Removed Rule 9.1: No T-Camera-Pod is required anymore \emph{\\It was deemed to be too difficult for teams to add in the first race iteration.}
   \item Removed Rule 9.2: No External Blackbox is required anymore \emph{\\It was deemed to be too difficult for teams to add in the first race iteration.}
 \end{itemize}
+=======
+\\ \\Previous Versions: 
+\\ v0.1 - Initial Prerelease version
+\\ v0.2.0 - First Release version: new min thrust, new min MTOW, some minor changes
+>>>>>>> e0a80c3ff31d27579fecfce2da89d09fb73aca9b
 
 \newpage
 {\bf Preface}
@@ -168,7 +179,7 @@ Teams can only fly their aircraft if they meet operational conditions and requir
   \item The Maximum Weight of the vehicle during scrutineering, without the standardized parts by Student AirRace must not exceed 22.5kg.
   \item The Organizer will publish the weights of equipment which must be used during the competition and thus added to the vehicle beforehand. Those weights wound count towards the maximum weight. 
   However, the teams should plan their calculations for the vehicle with those weights added. The Maximum Takeoff Weight with this Equipment will not pass 25kg.  
-  \item The Weight of the vehicle during scruteneering, without the standardized parts by Student AirRace must exceed .  
+  \item The Weight of the vehicle during scruteneering, without the standardized parts by Student AirRace must exceed \textcolor{red}{10Kg}.  
 \end{enumerate}
 
 \subsection{Vehicle Thrust}
@@ -234,8 +245,8 @@ Teams can only fly their aircraft if they meet operational conditions and requir
    \end{figure}
 
   \item The rotor disks of the vehicle may overlap when viewed in the XY-Plane, as long as a necessary separation between the rotors during full thrust is ensured with a safety factor of 3 or more at the closest position. No additional proof is required if the distance between both disks exceeds at least 1/4 of the propeller diameter. However, if the distance between both disks is less than 1/4 of the propeller diameter, teams must provide proof in their safety report to demonstrate that the necessary separation is maintained.  \item Rotors in which rotor disks overlap or mesh within each other are not permitted. Even if mechanically or electronically coupled.
-  \item The total vehicle size, including propeller disks, must not exceed a box with the side lengths of $x=3000mm$, $y=3000mm$, $y=1200mm$
-  \item The full vehicle size, including propeller disks, must exceed a box with the side lengths of $x=1200mm$, $y=1200mm$, $y=300mm$
+  \item The total vehicle size, including propeller disks, must not exceed a box with the side lengths of $x=3000mm$, $y=3000mm$, $z=1200mm$
+  \item The full vehicle size, including propeller disks, must exceed a box with the side lengths of $x=1100mm$, $y=1100mm$, $z=300mm$
 
   \begin{figure}[h!]
     \centering
@@ -260,7 +271,7 @@ Teams can only fly their aircraft if they meet operational conditions and requir
 
 \subsection{Propeller Dimension}
 \begin{enumerate}
-  \item The minimum propeller diameter used on the main motors must exceed \textcolor{red}{$500mm$}.
+  \item The minimum propeller diameter used on the main motors must exceed \textcolor{red}{$400mm$}.
   \item The maximum propeller diameter used on the main motors must not exceed \textcolor{red}{$1200mm$}.
   \item If varying propeller diameters are used on the main motors, the quotient must be within 0.67-1.5.
 \end{enumerate}
