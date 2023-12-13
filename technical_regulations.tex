@@ -5,8 +5,8 @@
     \newcommand*{\getOrganisation}{Student Airrace}
     \newcommand*{\getTitle}{Technical Regulations}
     \newcommand*{\getAuthor}{Orga team}
-    \newcommand*{\getDate}{01.05.2023}
-    \newcommand*{\getVersion}{v1.0}
+    \newcommand*{\getDate}{13.12.2023}
+    \newcommand*{\getVersion}{v1.1}
     \newcommand*{\getLocation}{Munich}
   
 
@@ -23,9 +23,16 @@
 \\ \\ \\
 {\bf Changelog}
 \\ \\{\bf Current Version: \\Version Draft \getVersion{}}
-\\ \\Previous Versions: 
-\\ v0.1 - Initial Prerelease version
-\\ v1.0 - First Release version: new min thrust, new min MTOW, some minor changes
+\\ \\Changelog from previous versions: 
+\\ v0.1 - Initial Prerelease version (01.05.23)
+\\ v1.0 - First Release version: new min thrust, new min MTOW, some minor changes (18.05.23)
+\\ v1.1 - Improved Release version (13.12.23): 
+\begin{itemize}
+  \item Changed Rule 4.2.2: Batteries do not have to comply with EASA standardized UAV batteries anymore. \emph{\\Due to the lack of resources for standardized batteries, this was confusing.}
+  \item Removed Rule 4.2.4: No fuse for the battery is required anymore. \emph{\\The safety gain was deemed minimal for the added difficulty and risk of a fuse failing.}
+  \item Removed Rule 9.1: No T-Camera-Pod is required anymore \emph{\\It was deemed to be too difficult for teams to add in the first race iteration.}
+  \item Removed Rule 9.2: No External Blackbox is required anymore \emph{\\It was deemed to be too difficult for teams to add in the first race iteration.}
+\end{itemize}
 
 \newpage
 {\bf Preface}
@@ -183,10 +190,8 @@ Teams can only fly their aircraft if they meet operational conditions and requir
 \subsection{Onboard Electronics}
 \begin{enumerate}
   \item The maximum Direct Current (DC) voltage across any two electrical connections on the aircraft must not exceed 60V.
-  \item Team participants are permitted to use various battery types on their Hyperdrones, provided that the batteries comply with EASA regulations for Unmanned Aerial Vehicles (UAV) and do not present a significantly elevated level of risk when compared to the use of a Lithium Polymer (Lipo) battery. 
+  \item Team participants are permitted to use various battery types on their Hyperdrones, provided they do not present a significantly elevated level of risk when compared to the use of a Lithium Polymer (Lipo) battery. 
   \item The total energy stored in a single battery may not exceed \textcolor{red}{40.000 mAh}.
-  \item A fuse with a suitable current rating must be added in series with each battery in the propulsion system. 
-  This fuse must be installed in line with the battery's positive terminal. Its maximum continuous current rating must be equal to or less than the maximum continuous discharge rating of the battery \textcolor{red}{times a safety factor of 1.3}. The goal is to protect the battery, the propulsion system, and the aircraft from damage or failure due to overcurrent conditions.
   \item At least two power sources must feed the flight control system. 
 \end{enumerate}
 
